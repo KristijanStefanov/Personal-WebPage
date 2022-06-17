@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+p {
+    margin: 10px 0;
+}
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.text-primary1 {
+    color: #f7c08a;
+    font-size: 48px;
+
+}
+.text-primary {
+    color: #f7c08a;
+
+
+}
+.lead {
+    font-size: 20px;
+    color: black;
+}
+.btn {
+    display: inline block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    color: #f7c08a;
+    background: #333;
+}
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+a.btn-light:hover {
+    background: #f7c08a;
+    color: #fff;
+}
+.bg-dark {
+    background: #333;
+    color: #f7c08a;
+}
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-primary {
+    color: #333;
+    background: #f7c08a;
+}
+ul {
+    list-style: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown .hobbies-list {
+    list-style: none;
+    text-decoration: none;
+    display: none;
+    z-index: 1;
+}
+.dropdown:hover .hobbies-list li a {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    background: #fff;
+    padding: 13px 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.dropdown:hover .hobbies-list li a:hover {
+    color: #f7c08a;
+    background: #333;
+}
+.dropdown:hover .hobbies-list {
+    display: block;
+}
+
+#navbar {
+    background: #333;
+    color: white;
+    overflow: auto;
+}
+#navbar a {
+    color: white;
+}
+#navbar .logo {
+    float: left;
+    padding: 20px;
+}
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover {
+    background: #444;
+    color: #f7c08a;
+}
+#navbar .current {
+    background: #444;
+    color: #f7c08a;
+}
+#showcase {
+    background: url("photo-showcase.jpg") no-repeat center center/cover;
+    height: 600px;
+}
+.showcase-content {
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+}
+.showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+.showcase-content p {
+    padding: 10px;
+    line-height: 1.7em;
+}
+#home-cv {
+    height: 450px;
+}
+#home-cv #content {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+#home-cv #info {
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    margin-left: 25%;
+}
+#home-cv #info p {
+    color: #fff;
+    padding-bottom: 30px;
+}
+#home-cv #info h2 {
+    color: white;
+}
+#features #box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+#features #box2 {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+#features #box3 {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+#features i {
+    margin-bottom: 10px;
+}
+#main-footer {
+    background: #444;
+    color: white;
+    padding: 5px;
+    height: auto;
+    font-size: 16px;
+}
+#main-footer p {
+    float: left;
+    margin-top: 2em;
+}
+#main-footer .container ul {
+    float: right;
+}
+#main-footer .container ul li {
+    float: left;
+    padding: 1em;
+    font-size: 2em;
+}
+#main-footer .container ul li a i {
+    color: white;
+}
+#home-cv{
+    display: block;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+#my-footer {
+    background: #444;
+    color: white;
+    padding: 5px;
+    height: auto;
+}
+#my-footer p {
+    float: left;
+    margin-top: 2em;
+}
+#my-footer .container ul {
+    float: right;
+}
+#my-footer .container ul li {
+    float: left;
+    padding: 1em;
+    font-size: 2em;
+}
+#my-footer .container ul li a i {
+    color: white;
+}
+.picutre-desc {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.cont {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+}
+.picture-location {
+    text-align: left;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+i {
+    color: #f7c08a;
+    opacity: 1;
+    font-size: 1.3em;
+}
+i:hover {
+    color: #f7c08a;
+    opacity: 1;
+}
+.insta-tag {
+    color: #736aff;
+}
+.likes {
+    width: 130px;
+    height: 195px;
+    display: inline-block;
+}
+.likes:hover {
+    background-color: #f7c08a;
+    color: #f7c08a;
+}
+.foreground-image {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px,1.5px;
+
+    z-index: 2;
+    border: 1px #fff solid;
+    background-image: linear-gradient(
+            to right top,
+            #f7c08a 35%,
+            #fff 65%,
+            rgb(161, 161, 161)
+    );
+    background-origin: border-box;
+    background-size: 1px;
+    position: relative;
+}
+.foreground-image:hover {
+    -webkit-transform: scale(5, 8);
+    -moz-transform: scale(5, 8);
+    -o-transform: scale(5, 8);
+    transform: scale(5, 8);
+    margin-top: 250px;
+    border-radius: 0;
+    border: none;
+    background-image: none;
+    background-origin: border-box;
+    z-index: 3;
+    position: relative;
+}
+#storysection{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+/*contactUS css */
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:110px auto; }
+.feedback-input {
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+[type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#CC6666;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+/*end contact us css */
+#gimnazija img{
+    width: 38%;
+    margin-left: 30%;
+    margin-top: 20px;
+    display: inline-block;
+    padding-top: 5px;
+    border-radius: 50px;
+
+}
+#gimnazija p{
+    color: white;
+    float: right;
+    width:200px;
+    margin-top: 7%;
+    margin-right: 12%;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: burlywood;
+}
